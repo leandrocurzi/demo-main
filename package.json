@@ -1,0 +1,30 @@
+{
+  "name": "pom-test-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build_srv_customer": "gulp -s customer",
+    "build_srv_activity": "gulp -s activity",
+    "build_srv_check": "gulp -s check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrocurzi/demo-main.git"
+  },
+  "author": "Leandro Curzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrocurzi/demo-main/issues"
+  },
+  "homepage": "https://github.com/leandrocurzi/demo-main#readme",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "pom-test-service-activity": "^1.0.0",
+    "pom-test-service-check": "^1.0.0",
+    "pom-test-service-customer": "^1.0.0",
+    "yargs": "^11.0.0"
+  }
+}
