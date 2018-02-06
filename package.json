@@ -22,9 +22,9 @@
   "devDependencies": {
     "express": "^4.16.2",
     "gulp": "^3.9.1",
-    "pom-test-service-activity": "^1.0.0",
-    "pom-test-service-check": "^1.0.0",
-    "pom-test-service-customer": "^1.0.0",
+    "pom-test-service-activity": "^1.0.1",
+    "pom-test-service-check": "^1.0.1",
+    "pom-test-service-customer": "^1.0.1",
     "yargs": "^11.0.0"
   }
 }
